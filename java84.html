@@ -1,0 +1,45 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>document</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var nombre = prompt('Ingrese un dia de la semana y un numero de 1 o 2 digitos:', '');
+        var patron = /^[lunes|martes|miercoles|jueves|viernes|sabado|domingo]\d[1,2]+$/;
+        if (patron.test(nombre))
+            document.write('Los datos coinciden ');
+        else
+            document.write('Los datos no coinciden');
+    </script>
+
+
+</body>
+
+</html>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>documento</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var palabra = prompt('Ingrese una palabra de 7 caracteres que comience con a y finalice con r', '');
+        var patron = /^a.....r$/;
+        if (patron.test(palabra))
+            document.write('palabra correcta');
+        else
+            document.write('palabra incorrecta');
+    </script>
+
+</body>
+
+</html>
